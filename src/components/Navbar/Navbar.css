@@ -1,0 +1,38 @@
+nav .branch img{
+    width: 100px;
+}
+nav {
+    color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-container{
+    padding: 0 50px;
+}
+.nav-menu-item ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.nav-icon ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.nav-menu-item ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.branch{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.branch img{
+    width: 10px;
+    height: 90px;
+}

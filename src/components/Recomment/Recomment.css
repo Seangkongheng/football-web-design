@@ -1,0 +1,51 @@
+
+.recomment-container{
+    padding: 50px 100px;
+}
+.recommend-card-list{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+.recomment-card-image{
+    width: 100%;
+    overflow: hidden;
+    height: 260px;
+}
+.recomment-card-image img{
+    width: 100%;
+}
+.recommend-card{
+    width: 300px;
+    height: auto;
+    background-color: rgb(73, 50, 69);
+}
+.recommend-card-two{
+    width: 300px;
+    height: auto;
+    background-color: rgb(52, 87, 107);
+}
+.recommend-card-three{
+    width: 300px;
+    height: auto;
+    background-color: rgb(89, 90, 9);
+}
+.recommend-card-fouth{
+    width: 300px;
+    height: auto;
+    background-color: rgb(231, 157, 219);
+}
+.recommend-card-desc{
+    padding: 50px;
+}
+.recommend-card-desc button{
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: white;
+    border: none;
+    color: red;
+    border-radius: 5px;
+}
+.recommend-card-desc{
+    color: white;
+}

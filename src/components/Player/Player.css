@@ -1,0 +1,76 @@
+.player-container{
+    padding:50px 100px ;
+}
+
+.player-history{
+    display: flex;
+    gap:1.5rem;
+    margin-top: 40px;
+}
+.player-history-personal{
+    display: flex;
+    padding-right:  10px;
+    border-right: 1px solid rgb(187, 187, 187);
+    gap: 0.5rem;
+}
+.player-history-personal-image-content{
+    display: flex;
+    gap: 1.5rem;
+}
+.player-history-personal-image{
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+    background-color: red;
+}
+.player-history-personal-image img{
+    width: 100%;
+}
+
+.player-historey-personal-description{
+    width: 400px;
+}
+.player-historey-personal-description p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.player-historey-personal-description button{
+    padding: 5px 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.player-historey-personal-description button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.player-history-personal-recode ul{
+    margin-top: 10px;
+    list-style-type: none;
+}
+.player-history-personal-recode ul li{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.player-history-another-card-image{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background-color: red;
+}
+.player-history-another-card-image img{
+    width: 100%;
+}
+.player-history-another-card{
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.player-history-another-card-description p{
+    font-size: 10px;
+    font-weight: bold;
+}

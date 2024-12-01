@@ -1,0 +1,92 @@
+.news-container{
+    padding: 50px 100px;
+}
+.news-card{
+    background-size: cover;
+    background-image: url('../../assets/artis1.jpg');
+    color: white;
+    padding:50px;
+    padding-top: 170px;
+    width: 300px;
+    height: 400px;
+    background-color: rebeccapurple;
+}
+.news-card-two{
+    background-size: cover;
+    background-image: url('../../assets/artis2.jpg');
+    color: white;
+    padding:50px;
+    padding-top: 170px;
+    width: 300px;
+    height: 400px;
+    background-color: rebeccapurple;
+}
+.news-card-three{
+    background-size: cover;
+    background-image: url('../../assets/artis3.jpg');
+    color: white;
+    padding:50px;
+    padding-top: 170px;
+    width: 300px;
+    height: 400px;
+    background-color: rebeccapurple;
+}
+.news-card-four{
+    background-size: cover;
+    background-image: url('../../assets/artis5.jpg');
+    color: white;
+    padding:50px;
+    padding-top: 170px;
+    width: 300px;
+    height: 400px;
+    background-color: rebeccapurple;
+}
+.news-card h2{
+    font-size: 19px;
+}
+.news-card-two h2{
+    font-size: 19px;
+}
+.news-card-three h2{
+    font-size: 19px;
+}
+.news-card-four h2{
+    font-size: 19px;
+}
+.news-list-card{
+    display: flex;
+    margin-top: 20px;
+}
+.news-card p{
+    font-size: 10px;
+}
+.news-card-two p{
+    font-size: 10px;
+}
+.news-card-four p{
+    font-size: 10px;
+}
+.news-card-three p{
+    font-size: 10px;
+}
+.artis-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: red;
+}
+.artis-info{
+    margin-top: 20px;
+    display: flex;
+    gap: 0.5rem;
+}
+.artis-info p{
+    font-size: 12px;
+}
+.artis-info small{
+    font-size: 10px;
+}
+.artis-profile img{
+    width: 100%;
+}
